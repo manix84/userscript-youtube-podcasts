@@ -11,6 +11,7 @@
         },
         createButtonBase: function () {
             this.newButton = document.createElement("div");
+            // I'm going to do this properly, it's just test code, I sware!
             newButton.innerHTML = "<span class='yt-uix-button-context-light yt-uix-button-subscription-container'><button type='button' class='yt-subscription-button yt-subscription-button-js-default yt-uix-button yt-uix-button-subscribe-branded'><span class='yt-uix-button-icon-wrapper'><img class='yt-uix-button-icon yt-uix-button-icon-subscribe-branded' src='//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif' alt='><span class='yt-uix-button-valign'></span></span><span class='yt-uix-button-content'><span class='subscribe-hh-label'>Subscribe</span><span class='subscribed-hh-label'>Subscribed</span><span class='unsubscribe-hh-label'>Unsubscribe</span></span></button><span class='yt-subscription-button-disabled-mask'></span></span>";
             this.container.appendChild(this.newButton);
         }
@@ -27,6 +28,8 @@
 
         // PIPE WITH VALUES
         // http://pipes.yahoo.com/pipes/pipe.run?YouTubeUsername=<USERNAME>&format=<FORMAT>&_id=2404b1b289037c4a7f616e39986a166c&_render=rss&itemLimit=200
+
+        // §
 
     };
 
